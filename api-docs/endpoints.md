@@ -307,13 +307,3 @@ DELETE /calendar/events
   "status": "Event deleted"
 }
 ```
-
-## 頁面路由
-
-```http
-GET /home
-GET /home/eatSquirrel
-GET /home/russia
-```
-
-這些路由會回傳原始專案 UI 使用的 Blade 頁面。
